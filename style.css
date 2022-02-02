@@ -1,0 +1,43 @@
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    }
+
+#extContainer{
+border:1px black solid;
+height:auto;
+width:200px; 
+
+display:grid;
+align-items:center;
+justify-content: center;
+grid-template-rows: repeat(16, auto);
+grid-template-columns: repeat(16, auto);
+padding:0px;
+
+
+row-gap: 0px;
+column-gap:0px;
+}
+#extContainer>div{
+    position: relative;
+    
+    
+    width:10px;
+    height:10px;
+    margin:0px;
+    
+}
+
+/* #extContainer>div:hover{
+    background-color: black;
+} */
+
+.red{
+    background-color: black;
+}
+
+.pixel{
+margin:0px;
+}
